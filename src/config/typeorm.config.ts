@@ -7,7 +7,7 @@ export const TypeOrmConfig: TypeOrmModuleOptions = {
     port: 5432,
     username: 'postgres',
     password: 'Pass2020!',
-    database: 'postgres',
+    database: 'nest_demo',
     entities: [join(__dirname, '/../','**','/*.entity.{ts,js}')],
     synchronize: true
 }
